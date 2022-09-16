@@ -1,0 +1,26 @@
+.category_ctr{
+    width: 98%;
+    margin:  auto;
+}
+.category_ctr .category_txt h1{
+text-align: center;
+}
+.category_data_ctr{
+    margin: 2rem auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.hero_box{
+    margin: auto;
+    padding: 0 1rem;
+    width: 20rem;
+    height: 10rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.119);
+    border-radius: .5rem;
+}

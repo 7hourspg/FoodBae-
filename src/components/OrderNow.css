@@ -1,0 +1,89 @@
+.ordr_ctr {
+  margin: auto;
+  width: 98%;
+  height: 20rem;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+}
+.ordr_ctr .ordr_bx1{
+    position: relative;
+    width: 27rem;
+    /* border: 2px solid black; */
+    height: 13rem;
+    background-image: url("https://images.unsplash.com/photo-1613769049987-b31b641f25b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGJyZWFrZmFzdHxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.326);
+    background-blend-mode: multiply;
+}
+ .ordr_txt{
+    color: white;
+    line-height: .5;
+    margin-left: .5rem;
+}
+ .ordr_btn{
+    font-size: 1.1rem;
+    position: absolute;
+    bottom:1rem;
+    left: .5rem;
+    background-color: white;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+.ordr_ctr .ordr_bx2{
+    position: relative;
+    width: 27rem;
+    /* border: 2px solid black; */
+    height: 13rem;
+    background-image: url("https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJicXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.331);
+    background-blend-mode: multiply;
+}
+.ordr_ctr .ordr_bx3{
+    position: relative;
+    width: 27rem;
+    /* border: 2px solid black; */
+    height: 13rem;
+    background-image: url("https://images.unsplash.com/photo-1559715745-e1b33a271c8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRlc3NlcnR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.322);
+    background-blend-mode: multiply;
+}
+@media(max-width:1200px){
+    .ordr_txt{ 
+        line-height: 1;
+    } 
+}
+@media(max-width:800px){
+    .ordr_ctr{
+        flex-direction: column;
+        height: 30rem;
+        margin: 2rem auto;
+        
+    }
+}
+@media(max-width:500px){
+   .ordr_ctr .ordr_bx1{
+        width: 100%;
+        
+    }
+   .ordr_ctr .ordr_bx2{
+        width: 100%;
+        
+    }
+   .ordr_ctr .ordr_bx3{
+        width: 100%;
+        
+    }
+}

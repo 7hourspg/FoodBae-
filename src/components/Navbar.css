@@ -1,0 +1,84 @@
+.nav_ctr{
+    width: 100vww;
+    height: 6rem ;
+    /* border-bottom: 2px solid red; */
+    display: flex ;
+    align-items: center;
+    padding:0 1rem;
+    justify-content: space-between;
+}
+
+.nav_lft .d_inline{
+    display: flex;
+    align-items: center;
+}
+.nav_lft .d_inline h1{
+    font-weight: 500;
+    margin-left: .7rem;
+}
+.nav_lft .d_inline .bold_span{
+    font-weight: 600;  
+}
+.nav_lft .d_inline .dlivry_pckup{
+    padding: .3rem;
+    background-color: rgba(168, 166, 166, 0.283);
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+   
+.nav_lft .d_inline .dlivry_pckup .btn_d{
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+.nav_lft .d_inline .dlivry_pckup .btn_p{
+    background-color: transparent;
+    border: none;
+   
+}
+.nav_mdl .search{
+    display: flex;
+    align-items: center;
+    width: 29rem;
+}
+.nav_mdl .search .search_icon{
+    position: absolute;
+    margin-left: .5rem;
+    
+}
+::placeholder{
+    padding-left: 2rem;
+    font-size: 1.02rem;
+}
+.nav_mdl .search input{
+    width: 100%;
+    padding: .7rem;
+    background-color: rgba(168, 166, 166, 0.283);
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+}
+
+.nav_rght .cart_btn{
+    color: white;
+    padding: .5rem 1rem;
+    background-color: black;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+}
+/* media queries */
+
+@media(max-width:1000px){
+    .nav_lft .d_inline .dlivry_pckup{
+        display: none;
+    }
+}
+@media(max-width:850px){
+    .nav_ctr{
+        height: 3rem;
+    }
+    .nav_ctr .nav_mdl{
+        display: none;
+    }
+}

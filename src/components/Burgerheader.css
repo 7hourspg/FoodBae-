@@ -1,0 +1,35 @@
+.bur_ctr{
+    width: 98%;
+    height: 500px;
+    /* border: red 2px solid; */
+    margin: auto;
+    background-image: url("https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.352);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+.bur_ctr .hdr_txt_ctr{
+    /* border: 2px solid red; */
+    height: 15rem;
+   width: 100%;
+}
+.bur_ctr .hdr_txt_ctr p{
+font-size: 4.5rem;
+color: white;
+line-height: 0;
+margin-left: 1rem;
+font-weight: bold;
+}
+.bur_ctr .hdr_txt_ctr .clr_org{
+    color: rgb(249 115 22 );
+} 
+@media(max-width:700px){
+    .bur_ctr .hdr_txt_ctr p{
+        font-size: 2.5rem;
+        margin-left: .5rem;
+        font-weight: bold;
+        }
+}

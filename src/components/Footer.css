@@ -1,0 +1,6 @@
+.footer_ctr{
+    display: flex;
+    background-color: rgb(249 115 22);
+    
+    justify-content: space-around;
+}
